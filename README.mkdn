@@ -1,0 +1,111 @@
+# Oh? What is this?
+
+'Tis a vendor tree for replacing the apps preinstalled on /e/OS with
+Simple Apps (Simple Dialer, Simple Calendar, etc) and some others
+[AITEx64](https://github.com/AITEx64) prefers. Maintained by [Beru
+Shinsetsu](https://github.com/windowz414).
+
+# But why?
+
+Well, not everyone prefers to have Lineage/AOSP stuff on the ROM
+they use - And several ROMs like to ship their own stuff as
+preinstalled with no way to remove. So you can consider this as
+a work (at least an attempt) for this case.
+
+# What if I don't want an app to be replaced but still use this?
+
+Each replacement will have a variable assigned. Set that variable
+to `true` to prevent the replacement/removal.
+
+# Variables
+
+Variables have a really simple scheme: `KEEP_$(APPNAME)`
+
+All variables possible are as follows;
+
+```
+KEEP_BROMITE := true
+```
+
+Doesn't replace /e/OS' fork of Bromite with Fennec.
+
+```
+KEEP_NOTES_TASKS := true
+```
+
+Doesn't remove /e/OS' Notes app and their fork of OpenTasks.
+
+```
+KEEP_QKSMS := true
+```
+
+Doesn't replace /e/OS' fork of QKSMS+ with Simple SMS Messenger.
+
+```
+KEEP_ETAR := true
+```
+
+Doesn't replace /e/OS' fork of Etar Calendar with Simple Calendar
+Pro.
+
+```
+KEEP_OPENCAMERA := true
+```
+
+Doesn't replace /e/OS' fork of OpenCamera with Simple Camera.
+
+```
+KEEP_K9MAIL := true
+```
+
+Doesn't replace /e/OS' fork of K-9 Mail with FairEmail.
+
+```
+KEEP_DIALER := true
+```
+
+Doesn't replace /e/OS' mod of AOSP Dialer with Simple Dialer.
+
+```
+KEEP_CALCULATOR := true
+```
+
+Doesn't replace AOSP Calculator with Simple Calculator.
+
+```
+KEEP_CONTACTS := true
+```
+
+Doesn't replace AOSP Contacts with Simple Contacts Pro.
+
+```
+KEEP_GALLERY2 := true
+```
+
+Doesn't replace LOS Gallery app with Simple Gallery Pro.
+
+```
+KEEP_LOVW := true
+```
+
+Doesn't remove LibreOffice Viewer.
+
+```
+KEEP_MAGICEARTH := true
+```
+
+Doesn't remove Magic Earth.
+
+```
+KEEP_PDFVW := true
+```
+
+Doesn't remove PDF Viewer Plus.
+
+-----
+
+All apps in this tree are provided **as prebuilts and is**. Credits
+for these go to their respective developers/owners.
+
+/e/Replacements - Copyright© 2022 Beru Shinsetsu.
+All Rights Reserved.
