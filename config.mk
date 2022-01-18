@@ -43,7 +43,9 @@ endif
 
 ifneq ($(KEEP_DIALER), true)
 PRODUCT_PACKAGES += \
-    SimpleDialPrebuilt
+    SimpleDialPrebuilt \
+    privapp_whitelist_com.simplemobiletools.dialer-ext.xml \
+    privapp_whitelist_com.simplemobiletools.dialer.xml
 endif
 
 ifneq ($(KEEP_CALCULATOR), true)
@@ -53,7 +55,8 @@ endif
 
 ifneq ($(KEEP_CONTACTS), true)
 PRODUCT_PACKAGES += \
-    SimpleContactsPrebuilt
+    SimpleContactsPrebuilt \
+    privapp_whitelist_com.simplemobiletools.contacts.pro.xml
 endif
 
 ifneq ($(KEEP_GALLERY2), true)
