@@ -102,6 +102,12 @@ KEEP_PDFVW := true
 
 Doesn't remove PDF Viewer Plus.
 
+# Credits
+
+[*] [Yuki (AITEx64)](https://github.com/AITEx64) for the idea
+[*] [Project Kasumi's vendor/prebuilts](https://github.com/ProjectKasumi/android_vendor_prebuilts) for repo style
+[*] [steadfasterX's vendor/extendrom](https://github.com/sfX-android/android_vendor_extendrom) for removal method
+
 -----
 
 All apps in this tree are provided **as prebuilts and is**. Credits
